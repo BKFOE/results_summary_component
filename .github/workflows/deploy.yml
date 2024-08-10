@@ -3,15 +3,20 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # or your default branch
+      - master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
 
     - name: Install dependencies
       run: npm install
