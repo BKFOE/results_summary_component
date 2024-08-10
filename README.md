@@ -69,5 +69,5 @@ After running npm build, I encountered an issue where Vite's build process purge
               
 ## Author
 
-- Website - [BKFOE](https://www.your-site.com)
+- Website - [BKFOE](https://github.com/BKFOE)
 - Frontend Mentor - [@BKFOE](https://www.frontendmentor.io/profile/bkfoe)
