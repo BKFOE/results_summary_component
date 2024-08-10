@@ -43,4 +43,4 @@ dist-ssr
 App.css
 .eslintrc.cjs
 assets/
-vite.config.js
+
