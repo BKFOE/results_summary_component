@@ -53,7 +53,7 @@ npm run dev
 ### Links
 
 - Solution URL: [Github](https://github.com/BKFOE/results_summary_component.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://bkfoe.github.io/results_summary_component/)
 
 ## My process
 
