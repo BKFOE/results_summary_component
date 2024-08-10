@@ -3,10 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master  # or the branch from which you're deploying
 
 permissions:
   contents: write
+  pages: write  # Make sure to include this permission for GitHub Pages deployment
 
 jobs:
   deploy:
